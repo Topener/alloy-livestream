@@ -1,0 +1,28 @@
+"#wrapper": {
+    top: 20,
+    backgroundColor: "#eee",
+    borderColor: "#ccc",
+    borderWidth: 1,
+    left: 20,
+    right: 20,
+    height: 150
+}
+
+"#title": {
+    top: 20,
+    font: {
+        fontSize: 24
+    },
+    color: "#333"
+}
+
+"#person": {
+    picture: '/images/profile_pic.png',
+    styling: {
+        left: 10,
+        width: 70,
+        height: 70,
+        bottom: 10,
+        opacity: 0.5
+    }
+}

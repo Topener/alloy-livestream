@@ -1,0 +1,18 @@
+"#wrapper": {
+    height: 100,
+    width: 100,
+    borderRadius: 20
+}
+
+"#picture": {
+}
+
+"#nameWrapper": {
+    bottom: 0,
+    height: 20,
+    backgroundColor: "#66000000"
+}
+
+"#name": {
+    color: "#fff"
+}

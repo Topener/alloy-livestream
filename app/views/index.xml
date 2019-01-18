@@ -1,0 +1,26 @@
+<Alloy>
+	<TabGroup>
+		<Tab id="firstTab" title="first">
+			<Window class="container">
+				<ScrollView layout="vertical">
+					<Require src="event" title="Jan. Titanium Livestream" id="firstEvent" />
+					<Require src="event" title="SDK 8.0.0 Release" />
+					<Require src="event" title="Feb. Titanium Livestream" />
+					<ProfilePicture module="myModule" method="createView" />
+					
+				</ScrollView>
+			</Window>
+		</Tab>
+		<Tab id="secondTab" title="second">
+			<Window class="container">
+				<Require src="/profilePicture" 
+						top="200" 
+						picture="/images/profile_pic.png" 
+						profilename="Wraldpyk"
+						onClick="handleProfilepictureClick"
+						onCustomEvent="handleCustom"
+				/>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

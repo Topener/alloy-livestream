@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="wrapper" onClick="clickProfilePicture">
+		<ImageView id="picture" />
+		<View id="nameWrapper">
+			<Label id="name" />
+		</View>
+	</View>
+</Alloy>
